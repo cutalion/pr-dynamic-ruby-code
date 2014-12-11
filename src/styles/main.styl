@@ -29,23 +29,35 @@ section
   margin-top: 1em
   font-size: smaller
 
-.bespoke-backdrop.rubocop
-  background-image-slide "/images/rubocop.png"
+.links
+  a
+    display: block
+    text-align: left
+  a:nth-of-type(n+2)
+    margin-top: .5em
 
-.bespoke-backdrop.rubycritic
-  background-image-slide "/images/rubycritic.png"
+.bespoke-backdrop-active
+  &.rubocop
+    background-image-slide "/images/rubocop.png"
 
-.bespoke-backdrop.metric_fu
-  background-image-slide "/images/metric_fu.png"
+  &.rubycritic
+    background-image-slide "/images/rubycritic.png"
 
-.bespoke-backdrop.simplecov
-  background-image-slide "/images/simplecov.png"
+  &.metric_fu
+    background-image-slide "/images/metric_fu.png"
 
-.bespoke-backdrop
+  &.simplecov
+    background-image-slide "/images/simplecov.png"
+
   &.diagram
     background-color: #00A388
+
   &.graphviz
     background-color: white
+
+  &.end
+    background-image-slide "/images/clasters.svg"
+    opacity: 0.7
 
 section[data-bespoke-backdrop~=graphviz]
   color: black
