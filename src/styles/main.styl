@@ -1,0 +1,52 @@
+// New to Stylus? Check out http://learnboost.github.io/stylus
+// Use modern CSS thanks to Autoprefixer: https://github.com/ai/autoprefixer
+
+// Import CSS from "node_modules" and "bower_components"
+// thanks to Stylus' "import css" and "paths" options
+
+@import 'prism/themes/prism-okaidia.css'
+@import 'prism/plugins/line-numbers/prism-line-numbers.css'
+// Check out "bower_components/prism/themes/" for available themes
+
+background-image-slide(path)
+  background-image: url(path)
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: contain
+
+table
+  width: 100%
+
+section
+  img
+    max-width: 100%
+
+
+.bespoke-slide.immediate
+  transition: none
+
+.contacts
+  margin-top: 1em
+  font-size: smaller
+
+.bespoke-backdrop.rubocop
+  background-image-slide "/images/rubocop.png"
+
+.bespoke-backdrop.rubycritic
+  background-image-slide "/images/rubycritic.png"
+
+.bespoke-backdrop.metric_fu
+  background-image-slide "/images/metric_fu.png"
+
+.bespoke-backdrop.simplecov
+  background-image-slide "/images/simplecov.png"
+
+.bespoke-backdrop
+  &.diagram
+    background-color: #00A388
+  &.graphviz
+    background-color: white
+
+section[data-bespoke-backdrop~=graphviz]
+  color: black
+  text-shadow: none

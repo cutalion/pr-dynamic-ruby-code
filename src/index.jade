@@ -1,0 +1,334 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Динамический анализ ruby-кода
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 Динамический анализ ruby-кода
+        p Александр Глушков / @KodoLabs / @cutalion
+
+      section
+        h2 Как оценить качество архитектуры?
+
+      section
+        h2 Статический анализ
+        ul
+          li rubocop
+          li rubycritic
+          li metric_fu
+          li ...
+
+      section
+        h2 rubocop
+        pre
+          code.language-bash.
+            $> rubocop -R -f html -o ./tmp/rubocop.html
+
+      section(data-bespoke-backdrop='rubocop')
+
+      section
+        h2 rubycritic
+        pre
+          code.language-bash.
+            $> rubycritic app
+
+      section(data-bespoke-backdrop='rubycritic')
+
+      section
+        h2 metric_fu
+        pre
+          code.language-bash.
+            $> metric_fu
+
+      section(data-bespoke-backdrop='metric_fu')
+
+      section
+        h2 Покрытие тестами?
+
+      section
+        h2 simplecov
+        pre
+          code.language-ruby.
+            # spec/spec_helper.rb
+            require 'simplecov'
+            SimpleCov.start 'rails'
+
+      section(data-bespoke-backdrop='simplecov')
+
+      section
+        h2.bullet Так можно найти проблемные места
+        h3.bullet и в принципе оценить качество архитектуры тоже можно
+
+      section
+        h2 Как увидеть ситуацию в целом?
+
+      section
+        h2 Как связаны классы в моем приложении?
+
+      section
+        h2 Coupling & cohesion
+
+        table
+          tr.bullet
+            td Связанность
+            td Связность
+          tr.bullet
+            td Соединение
+            td Связь
+          tr.bullet
+            td Сцепление
+            td Согласие
+          tr.bullet
+            td Стыковка
+            td Сплоченность
+
+      section
+        h2 Взаимосвязи между модулями и внутри модулей
+
+      section
+        h2 Можно ли увидеть эти связи?
+
+      section(data-bespoke-backdrop='diagram')
+        img(src="/images/ab_coupling.svg")
+
+      section
+        h2.bullet Класс А знает
+        ul
+          li название метода
+          li количество аргументов
+          li порядок аргументов
+          li сущность аргументов
+          li (часто) сущность возвращаемого значения
+
+      section
+        h2 Класс А зависит от B
+
+      section
+        h2 Изменения в классе B могут потребовать изменения класса А
+
+      section(data-bespoke-backdrop='diagram')
+        img(src="/images/coupling.svg")
+
+      section
+        h2 Простой пример
+
+      section
+        small
+          small
+            pre
+              code.language-ruby.
+                class ContactsController < ApplicationController
+                  def create
+                    @contact = Contact.new(params[:contact])
+
+                    if @contact.valid?
+                      flash[:notice] = "Message was successfully sent."
+                      Mailer.contact(@contact).deliver
+                    end
+
+                    redirect_to :back
+                  end
+                end
+
+      section
+        small
+          small
+            pre
+              code.language-ruby.
+                class Contact < TablelessModel
+                  attr_accessor :name, :email,
+                                :subject, :message, :phone
+
+                  validates :name, :email, :message, :presence => true
+                  validates :email, :email => true
+                end
+
+      section
+        small
+          small
+            pre
+              code.language-ruby.
+                class TablelessModel
+                  include ActiveModel::Validations
+                  include ActiveModel::Conversion
+                  extend ActiveModel::Naming
+
+                  def initialize(attributes = {})
+                    attributes.each do |name, value|
+                      send("#{name}=", value)
+                    end
+                  end
+
+                  def persisted?
+                    false
+                  end
+                end
+
+      section(data-bespoke-backdrop='diagram')
+        img(src='/images/valid_method_search.svg')
+
+      section
+        h2 TracePoint
+        p
+          q.
+            A class that provides the functionality of Kernel#set_trace_func
+            in a nice Object-Oriented API.
+
+      section
+        h2 Например
+
+      section
+        small
+          small
+            pre
+              code.language-ruby.
+                trace = TracePoint.new do |tp|
+                  p [tp.event, tp.defined_class,
+                     tp.method_id, tp.path, tp.lineno]
+                end
+
+                class A
+                  def foo; puts 'foo'; end
+                end
+
+                class B
+                  def bar; A.new.foo; end
+                end
+
+                trace.enable
+                B.new.bar
+
+
+      section
+        small
+          small
+            small
+              small
+                pre
+                  code.language-bash.
+                    $> ruby tp.rb
+                    [:c_return, TracePoint, :enable, "tp.rb", 14]
+                    [:line, nil, nil, "tp.rb", 15]
+                    [:c_call, Class, :new, "tp.rb", 15]
+                    [:c_call, BasicObject, :initialize, "tp.rb", 15]
+                    [:c_return, BasicObject, :initialize, "tp.rb", 15]
+                    [:c_return, Class, :new, "tp.rb", 15]
+                    [:call, B, :bar, "tp.rb", 11]
+                    [:line, B, :bar, "tp.rb", 11]
+                    [:c_call, Class, :new, "tp.rb", 11]
+                    [:c_call, BasicObject, :initialize, "tp.rb", 11]
+                    [:c_return, BasicObject, :initialize, "tp.rb", 11]
+                    [:c_return, Class, :new, "tp.rb", 11]
+                    [:call, A, :foo, "tp.rb", 7]
+                    [:line, A, :foo, "tp.rb", 7]
+                    [:c_call, Kernel, :puts, "tp.rb", 7]
+                    [:c_call, IO, :puts, "tp.rb", 7]
+                    [:c_call, IO, :write, "tp.rb", 7]
+                    foo[:c_return, IO, :write, "tp.rb", 7]
+                    [:c_call, IO, :write, "tp.rb", 7]
+
+                    [:c_return, IO, :write, "tp.rb", 7]
+                    [:c_return, IO, :puts, "tp.rb", 7]
+                    [:c_return, Kernel, :puts, "tp.rb", 7]
+                    [:return, A, :foo, "tp.rb", 7]
+                    [:return, B, :bar, "tp.rb", 11]
+
+      section
+        h2 Оставим только :call и :return
+        small
+          pre
+            code.language-bash.
+              $> ruby tp.rb
+              [:call, B, :bar, "tp.rb", 11]
+                [:call, A, :foo, "tp.rb", 7]
+                [:return, A, :foo, "tp.rb", 7]
+              [:return, B, :bar, "tp.rb", 11]
+
+      section
+        h2 Отлично! Стек вызовов
+        h3 Мы можем преобразовать его в удобный формат
+
+      section
+        h2 Например, в CSV
+        pre
+          code.language-ruby.
+            ContactsController,initialize,Contact
+            ContactsController,valid?,Contact
+            Contact,validate,EmailValidator
+
+      section
+        h2 CSV можно импортировать в любую базу данных
+
+      section
+        h2 Как на счет neo4j?
+        img(src="/images/neo4j_contacts.png")
+
+      section
+        h2 Количество связей у классов
+        h3 (из полного графа)
+        img(src="/images/neo4j_degree.png")
+
+
+      section
+        h2 Экспорт в DOT
+        h3
+          a(href="http://www.graphviz.org/") graphviz
+        small
+          small
+            pre
+              code.language-ruby.
+                strict digraph G{
+                  "ContactsController"->"Contact" [label="initialize"];
+                  "ContactsController"->"Contact" [label="valid?"];
+                  "Contact"->"EmailValidator" [label="validate"];
+                }
+
+      section(data-bespoke-backdrop='graphviz')
+        h3
+          pre.
+            $> dot -Tsvg contacts.dot -o contacts.svg
+        img(src="/images/contacts.svg")
+
+
+      section
+        h1.bullet Gephi
+        h2.bullet &laquo;makes graphs handy&raquo;
+        h3.bullet понимает язык DOT
+
+      section(data-bespoke-backdrop='gephi')
+        h2.bullet Умеет ранжировать узлы по различным параметрам
+        h2.bullet и знает несколько алгоритмов расположения узлов
+        img.bullet(src="/images/gephi_with_labels.png")
+
+      section(data-bespoke-backdrop='gephi')
+        h2 Самый популярный мальчик в классе
+        img.bullet(src="/images/gephi_organisation_zoom.png")
+
+      section(data-bespoke-backdrop='gephi')
+        h2 Изгои
+        img.bullet(src="/images/gephi_consult_zoom.png")
+
+      section
+        h1 The End
+        img(src="/images/clasters.svg")
+
+      section
+        h1 Ссылки
+        a(href='') @cutalion
+        a(href='https://github.com/cutalion') @cutalion
+        a(href='https://github.com/cutalion') @cutalion
+        a(href='https://gist.github.com/cutalion/ab2451236ad135d0e7ec') TPLogger gist
+
+      section
+        h1 Бонус
+        img(src="/images/britevid.svg")
+
+    script(src='build/build.js')

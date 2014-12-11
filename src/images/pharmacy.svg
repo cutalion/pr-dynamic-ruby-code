@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="875px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="-673 -1006 1759 1689" height="841px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="15.0"
+              d="M -238.589355,-352.589355 C -235.564316,-358.486572 -222.180923,-362.794830 -216.283691,-359.769806"
+              class="TrainingParticipationPresenter Training::Participation"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -238.589355,-352.589355 C -231.695221,-318.875641 -271.924561,-257.963867 -305.638275,-251.069748"
+              class="TrainingParticipationPresenter TestViewContext"
+              stroke-opacity="1.0" stroke="#856868"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -238.589355,-352.589355 C -261.868988,-345.304596 -307.715546,-369.296844 -315.000305,-392.576477"
+              class="TrainingParticipationPresenter Training::PaymentOption"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -238.589355,-352.589355 C -207.422409,-384.386719 -112.975929,-385.332336 -81.178558,-354.165405"
+              class="TrainingParticipationPresenter Training::Booking"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -216.283691,-359.769806 C -242.588348,-346.587830 -301.818329,-366.271820 -315.000305,-392.576477"
+              class="Training::Participation Training::PaymentOption"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -216.283691,-359.769806 C -36.539177,-318.906342 171.782349,12.005630 130.918869,191.750137"
+              class="Training::Participation Organisation" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -216.283691,-359.769806 C -113.468636,-314.335480 -27.397545,-91.961433 -72.831863,10.853624"
+              class="Training::Participation User" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -216.283691,-359.769806 C -237.206848,-339.094452 -299.604553,-339.466217 -320.279907,-360.389374"
+              class="Training::Participation Training" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -216.283691,-359.769806 C -221.371765,-361.750336 -226.033112,-372.353241 -224.052582,-377.441315"
+              class="Training::Participation Training::Notes"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -216.283691,-359.769806 C -188.141785,-385.669952 -107.078705,-382.307312 -81.178558,-354.165405"
+              class="Training::Participation Training::Booking"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -216.283691,-359.769806 C -192.015106,-445.227173 -27.426193,-537.010315 58.031170,-512.741760"
+              class="Training::Participation InvoiceItem" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -315.000305,-392.576477 C -309.618805,-385.083160 -312.786591,-365.770874 -320.279907,-360.389374"
+              class="Training::PaymentOption Training" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -272.320801,238.180023 C -266.883972,248.996780 -274.953827,273.377197 -285.770599,278.814026"
+              class="Pgd Page" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -272.320801,238.180023 C -328.908783,237.913925 -413.391632,152.632797 -413.125549,96.044807"
+              class="Pgd TrainingCourse" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 538.341248,625.527832 C 298.739258,710.190674 -187.657944,477.782013 -272.320801,238.180023"
+              class="Consult::Consultation Pgd" stroke-opacity="1.0"
+              stroke="#4b68a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 538.341248,625.527832 C 423.068359,707.905396 126.592659,658.562378 44.215107,543.289490"
+              class="Consult::Consultation Consult::Medication"
+              stroke-opacity="1.0" stroke="#11a2a2"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 574.879089,623.553040 C 567.966492,631.255554 546.043762,632.440430 538.341248,625.527832"
+              class="Consult::Card Consult::Consultation" stroke-opacity="1.0"
+              stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 574.879089,623.553040 C 584.336853,633.523743 583.567505,662.666504 573.596802,672.124268"
+              class="Consult::Card Consult::Patient" stroke-opacity="1.0"
+              stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 573.596802,672.124268 C 516.068420,705.892395 379.123566,670.252075 345.355408,612.723694"
+              class="Consult::Patient Consult::PatientsController"
+              stroke-opacity="1.0" stroke="#68a24b"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 130.918869,191.750137 C 142.118912,216.818375 121.316635,271.220764 96.248413,282.420807"
+              class="Organisation Balance" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="11.0"
+              d="M 130.918869,191.750137 C 53.989422,196.320984 -68.261017,87.783073 -72.831863,10.853624"
+              class="Organisation User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="10.0"
+              d="M 130.918869,191.750137 C 107.171432,210.568466 43.322773,203.174789 24.504444,179.427353"
+              class="Organisation Address" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 130.918869,191.750137 C 166.654358,127.357941 316.845886,84.372879 381.238098,120.108360"
+              class="Organisation Promo" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 130.918869,191.750137 C 167.654648,131.381790 313.310852,95.932968 373.679199,132.668747"
+              class="Organisation PromoCode" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 130.918869,191.750137 C 84.239670,189.804916 17.138693,116.868286 19.083912,70.189087"
+              class="Organisation Membership" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 130.918869,191.750137 C 110.845245,207.054077 57.778885,199.899536 42.474945,179.825912"
+              class="Organisation PharmacyGroup" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 130.918869,191.750137 C 183.758789,237.794891 193.951523,386.121887 147.906769,438.961792"
+              class="Organisation SecurePhone" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 96.248413,282.420807 C 85.048370,257.352600 105.850647,202.950180 130.918869,191.750137"
+              class="Balance Organisation" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="6.0"
+              d="M -72.831863,10.853624 C 4.097584,6.282784 126.348022,114.820686 130.918869,191.750137"
+              class="User Organisation" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="12.0"
+              d="M -72.831863,10.853624 C -19.649853,25.101114 38.751930,126.245338 24.504444,179.427353"
+              class="User Address" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.831863,10.853624 C 6.891106,-222.661652 476.748444,-453.350098 710.263733,-373.627136"
+              class="User UserObserver" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -72.831863,10.853624 C -42.581615,4.337563 12.567850,39.938843 19.083912,70.189087"
+              class="User Membership" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.831863,10.853624 C -73.234962,58.758514 -145.696930,130.011200 -193.601822,129.608093"
+              class="User Right" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -72.831863,10.853624 C -196.570068,-13.905369 -345.038879,-236.651169 -320.279907,-360.389374"
+              class="User Training" stroke-opacity="1.0" stroke="#4ba268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 548.854980,576.685486 C 563.433350,580.854187 579.047791,608.974670 574.879089,623.553040"
+              class="Consult::Visit Consult::Card" stroke-opacity="1.0"
+              stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 548.854980,576.685486 C 388.280701,583.285645 137.519028,352.324432 130.918869,191.750137"
+              class="Consult::Visit Organisation" stroke-opacity="1.0"
+              stroke="#11a2a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 548.854980,576.685486 C 311.351257,587.856445 -61.660858,248.357361 -72.831863,10.853624"
+              class="Consult::Visit User" stroke-opacity="1.0" stroke="#11a2a2"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 381.238098,120.108360 C 382.238403,124.132217 377.703064,131.668457 373.679199,132.668747"
+              class="Promo PromoCode" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 373.679199,132.668747 C 372.678894,128.644897 377.214233,121.108658 381.238098,120.108360"
+              class="PromoCode Promo" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 19.083912,70.189087 C 65.763115,72.134308 132.864090,145.070938 130.918869,191.750137"
+              class="Membership Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 19.083912,70.189087 C -11.166334,76.705147 -66.315796,41.103870 -72.831863,10.853624"
+              class="Membership User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 19.083912,70.189087 C 18.669676,64.561180 26.490183,55.497967 32.118092,55.083729"
+              class="Membership MembershipObserver" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 19.083912,70.189087 C 24.299440,62.920307 43.025894,59.840435 50.294674,65.055962"
+              class="Membership MembershipRole" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 19.083912,70.189087 C 1.172582,60.389664 -10.995282,18.823542 -1.195861,0.912211"
+              class="Membership History" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.568871,125.661064 C -68.415459,193.515244 -204.466614,261.026611 -272.320801,238.180023"
+              class="RightsMaker Pgd" stroke-opacity="1.0" stroke="#4b6868"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -45.568871,125.661064 C 2.946490,103.581329 108.839134,143.234772 130.918869,191.750137"
+              class="RightsMaker Organisation" stroke-opacity="1.0"
+              stroke="#11a268"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -45.568871,125.661064 C -73.982956,108.152176 -90.340752,39.267712 -72.831863,10.853624"
+              class="RightsMaker User" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.568871,125.661064 C -43.732708,101.636108 -4.941042,68.352928 19.083912,70.189087"
+              class="RightsMaker Membership" stroke-opacity="1.0"
+              stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -45.568871,125.661064 C -74.386055,156.057068 -163.205811,158.425293 -193.601822,129.608093"
+              class="RightsMaker Right" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -45.568871,125.661064 C -62.198616,50.118637 26.170406,-88.139618 101.712837,-104.769363"
+              class="RightsMaker Payment" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -45.568871,125.661064 C -75.928726,205.754761 -241.609039,280.355499 -321.702728,249.995636"
+              class="RightsMaker Assessment" stroke-opacity="1.0"
+              stroke="#4b6868"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.568871,125.661064 C -17.127138,118.885269 35.699150,151.384186 42.474945,179.825912"
+              class="RightsMaker PharmacyGroup" stroke-opacity="1.0"
+              stroke="#11a268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.568871,125.661064 C -106.962479,132.451706 -209.238861,50.547272 -216.029510,-10.846341"
+              class="RightsMaker TrainingPermit" stroke-opacity="1.0"
+              stroke="#4bbf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 32.118092,55.083729 C 32.532326,60.711636 24.711821,69.774849 19.083912,70.189087"
+              class="MembershipObserver Membership" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 79.496727,-202.852188 C 168.701630,-134.216141 199.554901,102.545235 130.918869,191.750137"
+              class="Purchase Organisation" stroke-opacity="1.0"
+              stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 79.496727,-202.852188 C 91.772179,-129.645309 0.375015,-1.421825 -72.831863,10.853624"
+              class="Purchase User" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 79.496727,-202.852188 C 204.437103,-198.608337 385.481934,-4.832024 381.238098,120.108360"
+              class="Purchase Promo" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -129.117157,-258.833527 C -166.737717,-261.587463 -219.037643,-322.149231 -216.283691,-359.769806"
+              class="Mailer Training::Participation" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -129.117157,-258.833527 C 13.006790,-220.723984 169.028412,49.626190 130.918869,191.750137"
+              class="Mailer Organisation" stroke-opacity="1.0" stroke="#4ba268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -129.117157,-258.833527 C -63.922668,-216.153152 -30.151489,-54.340866 -72.831863,10.853624"
+              class="Mailer User" stroke-opacity="1.0" stroke="#4ba268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -129.117157,-258.833527 C -64.325760,-168.248276 -103.016571,64.816704 -193.601822,129.608093"
+              class="Mailer Right" stroke-opacity="1.0" stroke="#4bbf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -129.117157,-258.833527 C -52.138325,-274.186676 86.359673,-181.748199 101.712837,-104.769363"
+              class="Mailer Payment" stroke-opacity="1.0" stroke="#4bbf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -129.117157,-258.833527 C -187.660873,-240.912140 -302.358521,-301.845673 -320.279907,-360.389374"
+              class="Mailer Training" stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -129.117157,-258.833527 C -96.902191,-191.853607 -149.049591,-43.061310 -216.029510,-10.846341"
+              class="Mailer TrainingPermit" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -129.117157,-258.833527 C -138.595810,-287.487610 -109.832657,-344.686737 -81.178558,-354.165405"
+              class="Mailer Training::Booking" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -129.117157,-258.833527 C -111.380074,-324.768799 14.128424,-397.066071 80.063690,-379.328979"
+              class="Mailer Order" stroke-opacity="1.0" stroke="#a2684b"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -129.117157,-258.833527 C -131.729858,-352.503021 4.855305,-496.926331 98.524803,-499.539063"
+              class="Mailer Invoice" stroke-opacity="1.0" stroke="#a2684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -129.117157,-258.833527 C -139.093781,-353.615204 -11.886242,-510.752686 82.895439,-520.729309"
+              class="Mailer InvoicePresenter" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -193.601822,129.608093 C -187.631226,167.066269 -234.862610,232.209427 -272.320801,238.180023"
+              class="Right Pgd" stroke-opacity="1.0" stroke="#4b6868"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -193.601822,129.608093 C -116.269287,77.132362 78.443138,114.417595 130.918869,191.750137"
+              class="Right Organisation" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -193.601822,129.608093 C -193.198730,81.703209 -120.736748,10.450525 -72.831863,10.853624"
+              class="Right User" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -193.601822,129.608093 C -181.414368,23.669670 -4.225590,-116.956802 101.712837,-104.769363"
+              class="Right Payment" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -193.601822,129.608093 C -200.381302,134.125580 -217.326782,130.732574 -221.844269,123.953087"
+              class="Right RightObserver" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 101.712837,-104.769363 C 95.495987,38.627251 -128.924194,244.396881 -272.320801,238.180023"
+              class="Payment Pgd" stroke-opacity="1.0" stroke="#4b6868"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 101.712837,-104.769363 C 166.857941,-51.306667 184.381561,126.605019 130.918869,191.750137"
+              class="Payment Organisation" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 101.712837,-104.769363 C 89.928490,-46.735828 -14.798326,22.637966 -72.831863,10.853624"
+              class="Payment User" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 101.712837,-104.769363 C 77.653046,-119.942703 64.323380,-178.792404 79.496727,-202.852188"
+              class="Payment Purchase" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 101.712837,-104.769363 C 42.471085,-155.351456 29.481590,-320.087219 80.063690,-379.328979"
+              class="Payment Order" stroke-opacity="1.0" stroke="#68684b"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 101.712837,-104.769363 C 129.731598,-105.872154 173.413910,-65.498207 174.516708,-37.479446"
+              class="Payment PaymentPrice" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 101.712837,-104.769363 C 116.099487,-113.367302 150.576355,-104.684250 159.174301,-90.297600"
+              class="Payment PaymentObserver" stroke-opacity="1.0"
+              stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -221.844269,123.953087 C -215.064789,119.435600 -198.119308,122.828606 -193.601822,129.608093"
+              class="RightObserver Right" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -321.702728,249.995636 C -314.189484,237.756119 -284.560303,230.666763 -272.320801,238.180023"
+              class="Assessment Pgd" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -321.702728,249.995636 C -319.756958,152.393066 -170.434448,8.907852 -72.831863,10.853624"
+              class="Assessment User" stroke-opacity="1.0" stroke="#4b4bbf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -321.702728,249.995636 C -319.903656,256.930420 -327.607208,270.031189 -334.541962,271.830261"
+              class="Assessment Question" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 42.474945,179.825912 C 62.548576,164.521973 115.614929,171.676514 130.918869,191.750137"
+              class="PharmacyGroup Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 42.474945,179.825912 C -14.380873,169.092819 -83.564957,67.709442 -72.831863,10.853624"
+              class="PharmacyGroup User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="6.0"
+              d="M 42.474945,179.825912 C 38.801132,183.340302 28.018833,183.101166 24.504444,179.427353"
+              class="PharmacyGroup Address" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -320.279907,-360.389374 C -299.356750,-381.064728 -236.959015,-380.692963 -216.283691,-359.769806"
+              class="Training Training::Participation" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -320.279907,-360.389374 C -325.661407,-367.882690 -322.493622,-387.194977 -315.000305,-392.576477"
+              class="Training Training::PaymentOption" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -320.279907,-360.389374 C -119.612244,-340.201233 151.107010,-8.917526 130.918869,191.750137"
+              class="Training Organisation" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -320.279907,-360.389374 C -247.562195,-250.533417 -303.269592,23.327101 -413.125549,96.044807"
+              class="Training TrainingCourse" stroke-opacity="1.0"
+              stroke="#856868"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -413.125549,96.044807 C -356.537567,96.310898 -272.054718,181.592026 -272.320801,238.180023"
+              class="TrainingCourse Pgd" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="9.0"
+              d="M -224.052582,-377.441315 C -218.964508,-375.460785 -214.303162,-364.857880 -216.283691,-359.769806"
+              class="Training::Notes Training::Participation"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -216.029510,-10.846341 C -183.049988,-35.145878 -97.131393,-22.125900 -72.831863,10.853624"
+              class="TrainingPermit User" stroke-opacity="1.0" stroke="#4ba268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -216.029510,-10.846341 C -306.788208,-59.904869 -369.338440,-269.630707 -320.279907,-360.389374"
+              class="TrainingPermit Training" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -216.029510,-10.846341 C -234.070480,49.951099 -352.328094,114.085785 -413.125549,96.044807"
+              class="TrainingPermit TrainingCourse" stroke-opacity="1.0"
+              stroke="#856868"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -1.195861,0.912211 C -13.534779,17.227694 -56.516380,23.192543 -72.831863,10.853624"
+              class="History User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -81.178558,-354.165405 C -109.320465,-328.265259 -190.383545,-331.627899 -216.283691,-359.769806"
+              class="Training::Booking Training::Participation"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -81.178558,-354.165405 C 70.424034,-287.401794 197.682495,40.147545 130.918869,191.750137"
+              class="Training::Booking Organisation" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -81.178558,-354.165405 C -6.505409,-282.830933 -1.497398,-63.819523 -72.831863,10.853624"
+              class="Training::Booking User" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="8.0"
+              d="M -81.178558,-354.165405 C -53.962826,-391.446564 42.782528,-406.544708 80.063690,-379.328979"
+              class="Training::Booking Order" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -81.178558,-354.165405 C -65.236855,-374.474182 -10.861115,-381.024811 9.447671,-365.083099"
+              class="Training::Booking OrderItem" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -81.178558,-354.165405 C -74.312614,-419.180817 33.509399,-506.404999 98.524803,-499.539063"
+              class="Training::Booking Invoice" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -81.178558,-354.165405 C -16.294167,-309.745911 14.403156,-145.790054 -30.016348,-80.905678"
+              class="Training::Booking SagepayPayment" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 80.063690,-379.328979 C 204.450546,-275.284180 234.963654,67.363281 130.918869,191.750137"
+              class="Order Organisation" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 80.063690,-379.328979 C 127.521111,-270.713348 35.783775,-36.603798 -72.831863,10.853624"
+              class="Order User" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="9.0"
+              d="M 80.063690,-379.328979 C 68.789658,-362.356598 26.420052,-353.809082 9.447671,-365.083099"
+              class="Order OrderItem" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 80.063690,-379.328979 C 172.288681,-504.462921 498.327148,-553.826416 623.461060,-461.601379"
+              class="Order DueDateCalculator" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 80.063690,-379.328979 C 77.359261,-389.563385 88.654251,-408.971680 98.888680,-411.676117"
+              class="Order OrderObserver" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="12.0"
+              d="M 80.063690,-379.328979 C 59.713898,-407.063232 70.790565,-479.189270 98.524803,-499.539063"
+              class="Order Invoice" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 80.063690,-379.328979 C 117.732346,-297.628296 51.684322,-118.574326 -30.016348,-80.905678"
+              class="Order SagepayPayment" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 80.063690,-379.328979 C 216.412811,-244.940063 219.353119,161.166992 84.964203,297.516113"
+              class="Order BalanceOp" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 9.447671,-365.083099 C 79.963448,-331.473389 135.322540,-175.285141 101.712837,-104.769363"
+              class="OrderItem Payment" stroke-opacity="1.0" stroke="#68684b"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 9.447671,-365.083099 C -6.494036,-344.774323 -60.869774,-338.223694 -81.178558,-354.165405"
+              class="OrderItem Training::Booking" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="8.0"
+              d="M 9.447671,-365.083099 C 20.721699,-382.055481 63.091309,-390.602997 80.063690,-379.328979"
+              class="OrderItem Order" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 9.447671,-365.083099 C 25.139465,-446.593872 170.943268,-545.322266 252.454025,-529.630493"
+              class="OrderItem Product" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 9.447671,-365.083099 C -46.238403,-218.977997 -348.925171,-83.349449 -495.030273,-139.035522"
+              class="OrderItem OnlinePractical" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="12.0"
+              d="M 98.888680,-411.676117 C 101.593109,-401.441711 90.298119,-382.033417 80.063690,-379.328979"
+              class="OrderObserver Order" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 98.888680,-411.676117 C 81.243317,-429.175934 81.024994,-481.893677 98.524803,-499.539063"
+              class="OrderObserver Invoice" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 98.524803,-499.539063 C 243.261459,-367.760040 262.697906,47.013481 130.918869,191.750137"
+              class="Invoice Organisation" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 98.524803,-499.539063 C 166.332016,-363.189178 63.518013,-56.953590 -72.831863,10.853624"
+              class="Invoice User" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 98.524803,-499.539063 C 154.056564,-436.396088 142.639725,-258.383972 79.496727,-202.852188"
+              class="Invoice Purchase" stroke-opacity="1.0" stroke="#68684b"/>
+        <path fill="none" stroke-width="7.0"
+              d="M 98.524803,-499.539063 C 118.874596,-471.804810 107.797928,-399.678772 80.063690,-379.328979"
+              class="Invoice Order" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 98.524803,-499.539063 C 87.785538,-494.080872 63.489357,-502.002502 58.031170,-512.741760"
+              class="Invoice InvoiceItem" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 98.524803,-499.539063 C 97.522049,-507.475891 107.923157,-520.885254 115.859978,-521.888000"
+              class="Invoice Invoice::Manual" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 58.031170,-512.741760 C 89.120232,-490.465698 102.339745,-410.418030 80.063690,-379.328979"
+              class="InvoiceItem Order" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 58.031170,-512.741760 C 68.770439,-518.199951 93.066620,-510.278320 98.524803,-499.539063"
+              class="InvoiceItem Invoice" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 82.895439,-520.729309 C 83.393417,-454.601746 -15.050980,-354.663391 -81.178558,-354.165405"
+              class="InvoicePresenter Training::Booking" stroke-opacity="1.0"
+              stroke="#a2684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 82.895439,-520.729309 C 110.609154,-491.882904 108.910110,-407.042694 80.063690,-379.328979"
+              class="InvoicePresenter Order" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="18.0"
+              d="M 82.895439,-520.729309 C 90.259361,-519.617126 99.636986,-506.902985 98.524803,-499.539063"
+              class="InvoicePresenter Invoice" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 82.895439,-520.729309 C 79.520096,-514.158936 64.601532,-509.366455 58.031170,-512.741760"
+              class="InvoicePresenter InvoiceItem" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="10.0"
+              d="M 85.607780,-185.313049 C 80.877739,-187.598663 77.211113,-198.122147 79.496727,-202.852188"
+              class="OfflinePayments::PharmacistLocumPgd Purchase"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="7.0"
+              d="M 85.607780,-185.313049 C 104.937531,-172.425323 114.600571,-124.099106 101.712837,-104.769363"
+              class="OfflinePayments::PharmacistLocumPgd Payment"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 85.607780,-185.313049 C 45.695774,-223.007416 42.369320,-339.416962 80.063690,-379.328979"
+              class="OfflinePayments::PharmacistLocumPgd Order"
+              stroke-opacity="1.0" stroke="#68684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 85.607780,-185.313049 C 83.364433,-141.306747 13.989954,-78.662331 -30.016348,-80.905678"
+              class="OfflinePayments::PharmacistLocumPgd SagepayPayment"
+              stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 174.516708,-37.479446 C 211.643051,17.086039 185.484360,154.623795 130.918869,191.750137"
+              class="PaymentPrice Organisation" stroke-opacity="1.0"
+              stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 174.516708,-37.479446 C 247.378555,-47.306168 371.411377,47.246517 381.238098,120.108360"
+              class="PaymentPrice Promo" stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 174.516708,-37.479446 C 146.497955,-36.376656 102.815628,-76.750603 101.712837,-104.769363"
+              class="PaymentPrice Payment" stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 174.516708,-37.479446 C 166.950027,-28.522684 142.164841,-26.437571 133.208084,-34.004257"
+              class="PaymentPrice PaymentPrice::LocumSinglePgdCalculator"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 174.516708,-37.479446 C 178.617249,-43.676243 194.063248,-46.820637 200.260040,-42.720100"
+              class="PaymentPrice PaymentPrice::LocumBundleCalculator"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="4.0"
+              d="M 174.516708,-37.479446 C 177.689606,-18.701664 154.282257,14.224347 135.504471,17.397236"
+              class="PaymentPrice PaymentPrice::SinglePgdCalculator"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 174.516708,-37.479446 C 185.606171,-34.420807 197.652405,-13.198652 194.593765,-2.109189"
+              class="PaymentPrice PaymentPrice::BundleCalculator"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 133.208084,-34.004257 C 106.539169,101.538376 -136.778168,264.848938 -272.320801,238.180023"
+              class="PaymentPrice::LocumSinglePgdCalculator Pgd"
+              stroke-opacity="1.0" stroke="#4b6868"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 133.208084,-34.004257 C 112.756012,-41.858231 93.858864,-84.317291 101.712837,-104.769363"
+              class="PaymentPrice::LocumSinglePgdCalculator Payment"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 147.906769,438.961792 C 95.066849,392.917053 84.874115,244.590057 130.918869,191.750137"
+              class="SecurePhone Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 147.906769,438.961792 C 179.827484,467.259277 185.262299,557.586609 156.964813,589.507263"
+              class="SecurePhone Consult::Verification" stroke-opacity="1.0"
+              stroke="#688568"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 147.906769,438.961792 C 140.314285,433.274994 137.455750,413.356079 143.142563,405.763580"
+              class="SecurePhone Consult::Notifications" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 202.040573,440.825226 C 138.001221,405.234528 95.328186,255.789490 130.918869,191.750137"
+              class="Consult::OrganisationGuard Organisation"
+              stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 202.040573,440.825226 C 61.071762,409.805389 -103.851700,151.822433 -72.831863,10.853624"
+              class="Consult::OrganisationGuard User" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 202.040573,440.825226 C 190.841125,451.279297 158.360855,450.161224 147.906769,438.961792"
+              class="Consult::OrganisationGuard SecurePhone"
+              stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 202.040573,440.825226 C 236.475525,460.723053 258.281219,542.222229 238.383408,576.657166"
+              class="Consult::OrganisationGuard Consult::PublicToken"
+              stroke-opacity="1.0" stroke="#688568"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 238.383408,576.657166 C 139.909088,521.168640 75.430367,290.224457 130.918869,191.750137"
+              class="Consult::PublicToken Organisation" stroke-opacity="1.0"
+              stroke="#688568"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 238.383408,576.657166 C 238.949905,582.603638 230.879929,592.373108 224.933456,592.939575"
+              class="Consult::PublicToken Consult::Token" stroke-opacity="1.0"
+              stroke="#bf8511"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 238.383408,576.657166 C 243.592804,576.820618 251.161697,584.879944 250.998230,590.089294"
+              class="Consult::PublicToken TestCookies" stroke-opacity="1.0"
+              stroke="#bf8511"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 223.179153,403.352386 C 162.406647,379.483978 107.050476,252.522644 130.918869,191.750137"
+              class="Consult::NavbarPresenter Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 223.179153,403.352386 C 226.445999,415.074677 213.762863,437.558380 202.040573,440.825226"
+              class="Consult::NavbarPresenter Consult::OrganisationGuard"
+              stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 223.179153,403.352386 C 293.305786,390.643372 417.559235,476.769745 430.268250,546.896362"
+              class="Consult::NavbarPresenter Consult::ConsultationGuard"
+              stroke-opacity="1.0" stroke="#11a2a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 430.268250,546.896362 C 228.007156,625.670898 -193.546249,440.441101 -272.320801,238.180023"
+              class="Consult::ConsultationGuard Pgd" stroke-opacity="1.0"
+              stroke="#4b68a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 430.268250,546.896362 C 467.609131,541.008057 532.452942,588.186890 538.341248,625.527832"
+              class="Consult::ConsultationGuard Consult::Consultation"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 430.268250,546.896362 C 474.521759,533.305542 561.288269,579.299500 574.879089,623.553040"
+              class="Consult::ConsultationGuard Consult::Card"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 177.252426,612.131958 C 83.909348,537.322327 56.109207,285.093231 130.918869,191.750137"
+              class="Consult::Authorisation Organisation" stroke-opacity="1.0"
+              stroke="#688568"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 177.252426,612.131958 C 182.950165,598.757263 211.558777,587.241882 224.933456,592.939575"
+              class="Consult::Authorisation Consult::Token" stroke-opacity="1.0"
+              stroke="#bf8511"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 177.252426,612.131958 C 168.669968,611.664490 156.497406,598.089722 156.964813,589.507263"
+              class="Consult::Authorisation Consult::Verification"
+              stroke-opacity="1.0" stroke="#bf8511"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 224.933456,592.939575 C 219.235718,606.314270 190.627106,617.829651 177.252426,612.131958"
+              class="Consult::Token Consult::Authorisation" stroke-opacity="1.0"
+              stroke="#bf8511"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 156.964813,589.507263 C 125.044106,561.209778 119.609291,470.882507 147.906769,438.961792"
+              class="Consult::Verification SecurePhone" stroke-opacity="1.0"
+              stroke="#688568"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 144.898849,454.462341 C 142.400314,450.760651 144.205078,441.460297 147.906769,438.961792"
+              class="SecurePhoneSerializer SecurePhone" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 1083.998413,-133.626999 C 1081.693237,-134.439743 1079.454468,-139.116699 1080.267212,-141.421936"
+              class="Pharmacy::Application Consult::SessionsController"
+              stroke-opacity="1.0" stroke="#bf1111"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 1083.998413,-133.626999 C 1085.776123,-131.952347 1085.930664,-126.773842 1084.255981,-124.996162"
+              class="Pharmacy::Application Admin::TrainingParticipationsController"
+              stroke-opacity="1.0" stroke="#bf1111"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.105373,337.928162 C -110.498093,363.421631 -246.827347,303.572723 -272.320801,238.180023"
+              class="StringInput Pgd" stroke-opacity="1.0" stroke="#4b4bbf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.105373,337.928162 C -39.136131,273.487732 66.478409,185.780899 130.918869,191.750137"
+              class="StringInput Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -45.105373,337.928162 C -116.065582,278.058533 -132.701477,81.813828 -72.831863,10.853624"
+              class="StringInput User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.105373,337.928162 C -62.883572,292.306030 -21.117680,197.205551 24.504444,179.427353"
+              class="StringInput Address" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.105373,337.928162 C -149.045105,302.358093 -251.599579,93.093399 -216.029510,-10.846341"
+              class="StringInput TrainingPermit" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -45.105373,337.928162 C 13.703787,319.532471 129.511063,380.152649 147.906769,438.961792"
+              class="StringInput SecurePhone" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -45.105373,337.928162 C -427.958923,199.047638 -793.918335,-583.553406 -655.037842,-966.406921"
+              class="StringInput Invite" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.105373,337.928162 C -27.173866,303.831848 50.867878,279.584595 84.964203,297.516113"
+              class="StringInput BalanceOp" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -45.105373,337.928162 C 13.830990,361.136322 67.423279,484.353119 44.215107,543.289490"
+              class="StringInput Consult::Medication" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -45.105373,337.928162 C -42.767937,345.393402 -50.459656,360.097443 -57.924908,362.434875"
+              class="StringInput OfflinePayments::Base" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 166.780777,614.578613 C 168.385773,611.994934 174.668762,610.526917 177.252426,612.131958"
+              class="Consult::CodeUsagePresenter Consult::Authorisation"
+              stroke-opacity="1.0" stroke="#bf8511"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 166.780777,614.578613 C 159.803314,611.527527 153.913742,596.484741 156.964813,589.507263"
+              class="Consult::CodeUsagePresenter Consult::Verification"
+              stroke-opacity="1.0" stroke="#bf8511"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 143.142563,405.763580 C 97.895142,365.405609 90.560913,236.997559 130.918869,191.750137"
+              class="Consult::Notifications Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 143.142563,405.763580 C 150.735046,411.450378 153.593582,431.369293 147.906769,438.961792"
+              class="Consult::Notifications SecurePhone" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 135.504471,17.397236 C 98.095978,143.118835 -146.599197,275.588501 -272.320801,238.180023"
+              class="PaymentPrice::SinglePgdCalculator Pgd" stroke-opacity="1.0"
+              stroke="#4b6868"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 135.504471,17.397236 C 169.457947,53.184940 166.706573,157.796661 130.918869,191.750137"
+              class="PaymentPrice::SinglePgdCalculator Organisation"
+              stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 135.504471,17.397236 C 104.312820,-0.277756 84.037842,-73.577713 101.712837,-104.769363"
+              class="PaymentPrice::SinglePgdCalculator Payment"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 159.174301,-90.297600 C 144.787659,-81.699661 110.310776,-90.382713 101.712837,-104.769363"
+              class="PaymentObserver Payment" stroke-opacity="1.0"
+              stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 159.174301,-90.297600 C 85.545898,-132.281754 38.079536,-305.700592 80.063690,-379.328979"
+              class="PaymentObserver Order" stroke-opacity="1.0"
+              stroke="#68684b"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 159.174301,-90.297600 C 172.806412,-82.802452 182.011856,-51.111557 174.516708,-37.479446"
+              class="PaymentObserver PaymentPrice" stroke-opacity="1.0"
+              stroke="#11bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 118.375229,-377.097961 C 110.266716,-369.881836 87.279793,-371.220459 80.063690,-379.328979"
+              class="SuspendOrder Order" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 79.066925,-417.476990 C 86.895882,-410.046722 87.493935,-387.157928 80.063690,-379.328979"
+              class="UnsuspendOrder Order" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 127.225960,-392.446655 C 120.417038,-380.390656 92.119682,-372.520050 80.063690,-379.328979"
+              class="OfflinePayments::Order Order" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -172.808075,-346.234161 C -184.210327,-340.246155 -210.295685,-348.367554 -216.283691,-359.769806"
+              class="TrainingBooker Training::Participation"
+              stroke-opacity="1.0" stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -172.808075,-346.234161 C -4.465828,-299.382690 177.770355,23.407890 130.918869,191.750137"
+              class="TrainingBooker Organisation" stroke-opacity="1.0"
+              stroke="#4ba268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -172.808075,-346.234161 C -81.395271,-294.811829 -21.409538,-80.559189 -72.831863,10.853624"
+              class="TrainingBooker User" stroke-opacity="1.0" stroke="#4ba268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -172.808075,-346.234161 C -205.133484,-319.570862 -293.616608,-328.063965 -320.279907,-360.389374"
+              class="TrainingBooker Training" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -172.808075,-346.234161 C -156.068420,-366.146301 -101.090714,-370.905060 -81.178558,-354.165405"
+              class="TrainingBooker Training::Booking" stroke-opacity="1.0"
+              stroke="#85bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 319.241943,596.716492 C 123.654602,557.958679 -111.589684,206.440948 -72.831863,10.853624"
+              class="Consult::AccessLog User" stroke-opacity="1.0"
+              stroke="#688568"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 319.241943,596.716492 C 299.058350,608.876343 250.543243,596.840698 238.383408,576.657166"
+              class="Consult::AccessLog Consult::PublicToken"
+              stroke-opacity="1.0" stroke="#bf8511"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 319.241943,596.716492 C 327.666077,594.695190 343.334167,604.299561 345.355408,612.723694"
+              class="Consult::AccessLog Consult::PatientsController"
+              stroke-opacity="1.0" stroke="#bf8511"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -30.016348,-80.905678 C -20.227592,-53.990715 -45.916901,1.064867 -72.831863,10.853624"
+              class="SagepayPayment User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -269.520203,166.874893 C -360.332733,90.509583 -382.003601,-160.257202 -305.638275,-251.069748"
+              class="OrganisationRightPresenter TestViewContext"
+              stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -269.520203,166.874893 C -255.819290,181.696045 -257.499664,224.479111 -272.320801,238.180023"
+              class="OrganisationRightPresenter Pgd" stroke-opacity="1.0"
+              stroke="#8511bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -269.520203,166.874893 C -184.457321,91.762123 55.806095,106.687263 130.918869,191.750137"
+              class="OrganisationRightPresenter Organisation"
+              stroke-opacity="1.0" stroke="#4b4bbf"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -269.520203,166.874893 C -261.789886,144.237869 -216.238846,121.877769 -193.601822,129.608093"
+              class="OrganisationRightPresenter Right" stroke-opacity="1.0"
+              stroke="#4b6868"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -269.520203,166.874893 C -249.602448,38.299423 -26.862629,-124.687119 101.712837,-104.769363"
+              class="OrganisationRightPresenter Payment" stroke-opacity="1.0"
+              stroke="#4b6868"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -269.520203,166.874893 C -268.480286,172.612457 -275.526733,182.778687 -281.264282,183.818619"
+              class="OrganisationRightPresenter PgdPresenter"
+              stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -281.264282,183.818619 C -373.116760,101.715744 -387.741150,-159.217270 -305.638275,-251.069748"
+              class="PgdPresenter TestViewContext" stroke-opacity="1.0"
+              stroke="#8511bf"/>
+        <path fill="none" stroke-width="8.0"
+              d="M -281.264282,183.818619 C -268.603302,192.902206 -263.237213,225.519043 -272.320801,238.180023"
+              class="PgdPresenter Pgd" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -281.264282,183.818619 C -274.170776,107.539131 -149.111343,3.760139 -72.831863,10.853624"
+              class="PgdPresenter User" stroke-opacity="1.0" stroke="#4b4bbf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -281.264282,183.818619 C -276.116547,205.141708 -300.379639,244.847931 -321.702728,249.995636"
+              class="PgdPresenter Assessment" stroke-opacity="1.0"
+              stroke="#8511bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -281.264282,183.818619 C -325.191284,192.636108 -404.308044,139.971832 -413.125549,96.044807"
+              class="PgdPresenter TrainingCourse" stroke-opacity="1.0"
+              stroke="#8511bf"/>
+        <path fill="none" stroke-width="16.0"
+              d="M -281.264282,183.818619 C -282.304199,178.081055 -275.257751,167.914825 -269.520203,166.874893"
+              class="PgdPresenter OrganisationRightPresenter"
+              stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -334.541962,271.830261 C -328.827759,252.655991 -291.495087,232.465836 -272.320801,238.180023"
+              class="Question Pgd" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="5.0"
+              d="M -334.541962,271.830261 C -334.707275,273.880463 -338.030609,276.707764 -340.080811,276.542450"
+              class="Question Answer" stroke-opacity="1.0" stroke="#8511bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 194.593765,-2.109189 C 220.630646,49.397659 182.425720,165.713257 130.918869,191.750137"
+              class="PaymentPrice::BundleCalculator Organisation"
+              stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 194.593765,-2.109189 C 155.485550,-4.065039 99.756989,-65.661140 101.712837,-104.769363"
+              class="PaymentPrice::BundleCalculator Payment"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 194.593765,-2.109189 C 198.860641,-4.920440 209.477859,-2.736984 212.289108,1.529903"
+              class="PaymentPrice::BundleCalculator BundleDiscountCalculator"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -655.037842,-966.406921 C -661.390015,-969.889343 -665.694519,-984.641174 -662.212097,-990.993347"
+              class="Invite EmailValidator" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 84.964203,297.516113 C 84.201988,292.240204 90.972511,283.183044 96.248413,282.420807"
+              class="BalanceOp Balance" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -662.212097,-990.993347 C -655.859924,-987.510925 -651.555420,-972.759094 -655.037842,-966.406921"
+              class="EmailValidator Invite" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -662.212097,-990.993347 C -666.788757,-991.664368 -672.647095,-999.535828 -671.976074,-1004.112488"
+              class="EmailValidator Email" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -124.421295,-3.394900 C -111.253700,-10.863082 -80.300041,-2.313968 -72.831863,10.853624"
+              class="AccessToken User" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 581.969727,682.302551 C 578.259521,681.941467 573.235718,675.834473 573.596802,672.124268"
+              class="Consult::PatientSerializer Consult::Patient"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 358.099091,141.564896 C 322.700104,197.037994 186.391968,227.149139 130.918869,191.750137"
+              class="PromoUsage Organisation" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 358.099091,141.564896 C 359.435883,136.669632 368.783936,131.331955 373.679199,132.668747"
+              class="PromoUsage PromoCode" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 553.057739,601.036072 C 555.012817,608.877747 546.182922,623.572754 538.341248,625.527832"
+              class="Consult::VisitHistory Consult::Consultation"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 553.057739,601.036072 C 561.925415,601.175232 575.018250,614.685364 574.879089,623.553040"
+              class="Consult::VisitHistory Consult::Card" stroke-opacity="1.0"
+              stroke="#11bf85"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 553.057739,601.036072 C 547.347046,597.006531 544.825439,582.396179 548.854980,576.685486"
+              class="Consult::VisitHistory Consult::Visit" stroke-opacity="1.0"
+              stroke="#11bf85"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 564.247620,648.408630 C 554.490173,649.013733 538.946350,635.285278 538.341248,625.527832"
+              class="Consult::PatientValidator Consult::Consultation"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 564.247620,648.408630 C 561.402771,641.311218 567.781677,626.397888 574.879089,623.553040"
+              class="Consult::PatientValidator Consult::Card"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 564.247620,648.408630 C 570.860535,651.281921 576.470093,665.511353 573.596802,672.124268"
+              class="Consult::PatientValidator Consult::Patient"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 564.247620,648.408630 C 546.824463,637.142578 537.588928,594.108643 548.854980,576.685486"
+              class="Consult::PatientValidator Consult::Visit"
+              stroke-opacity="1.0" stroke="#11bf85"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -495.030273,-139.035522 C -380.612732,-193.497375 -127.293716,-103.563896 -72.831863,10.853624"
+              class="OnlinePractical User" stroke-opacity="1.0" stroke="#684ba2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -495.030273,-139.035522 C -428.070160,-302.113007 -83.013802,-446.289093 80.063690,-379.328979"
+              class="OnlinePractical Order" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="4.0"
+              d="M -495.030273,-139.035522 C -495.837067,-130.922073 -509.217407,-119.962097 -517.330811,-120.768875"
+              class="OnlinePractical OnlineTraining" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -517.330811,-120.768875 C -453.127014,-98.247192 -390.603882,31.841015 -413.125549,96.044807"
+              class="OnlineTraining TrainingCourse" stroke-opacity="1.0"
+              stroke="#a211a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -606.668640,-119.382614 C -589.078369,-137.527435 -535.475647,-138.359192 -517.330811,-120.768875"
+              class="OnlineTraining::Section OnlineTraining"
+              stroke-opacity="1.0" stroke="#6811a2"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -575.051941,-134.645508 C -445.508087,-205.989716 -144.176056,-118.690224 -72.831863,10.853624"
+              class="Certification User" stroke-opacity="1.0" stroke="#114bbf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -575.051941,-134.645508 C -559.925598,-151.527847 -511.912598,-154.161850 -495.030273,-139.035522"
+              class="Certification OnlinePractical" stroke-opacity="1.0"
+              stroke="#6811a2"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -575.051941,-134.645508 C -584.269104,-123.213943 -615.242188,-119.892334 -626.673706,-129.109482"
+              class="Certification OnlineTraining::Test" stroke-opacity="1.0"
+              stroke="#1111bf"/>
+        <path fill="none" stroke-width="3.0"
+              d="M -575.051941,-134.645508 C -577.786804,-133.529922 -583.562378,-135.958771 -584.677979,-138.693588"
+              class="Certification CertificationTestAnswer" stroke-opacity="1.0"
+              stroke="#1111bf"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -626.673706,-129.109482 C -620.727295,-131.165115 -608.724304,-125.329002 -606.668640,-119.382614"
+              class="OnlineTraining::Test OnlineTraining::Section"
+              stroke-opacity="1.0" stroke="#1111bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -626.673706,-129.109482 C -628.978088,-126.994514 -635.607178,-127.278618 -637.722107,-129.583008"
+              class="OnlineTraining::Test OnlineTraining::Question"
+              stroke-opacity="1.0" stroke="#1111bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -34.462639,-92.995804 C -31.155354,-91.467041 -28.487579,-84.212959 -30.016348,-80.905678"
+              class="SagepayTransaction SagepayPayment" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="11.0"
+              d="M 70.024323,-219.227615 C 75.193886,-217.847015 80.877335,-208.021759 79.496727,-202.852188"
+              class="OfflinePayments::TrainingBooking Purchase"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="3.0"
+              d="M 70.024323,-219.227615 C 12.796186,-215.974609 -77.925537,-296.937286 -81.178558,-354.165405"
+              class="OfflinePayments::TrainingBooking Training::Booking"
+              stroke-opacity="1.0" stroke="#4bbf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 70.024323,-219.227615 C 40.011921,-253.255768 46.035542,-349.316589 80.063690,-379.328979"
+              class="OfflinePayments::TrainingBooking Order"
+              stroke-opacity="1.0" stroke="#68684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 70.024323,-219.227615 C 77.680573,-171.555099 17.656172,-88.561928 -30.016348,-80.905678"
+              class="OfflinePayments::TrainingBooking SagepayPayment"
+              stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 122.478035,-464.484344 C 131.026230,-438.970398 105.577637,-387.877167 80.063690,-379.328979"
+              class="OfflinePayments::Invoice Order" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 122.478035,-464.484344 C 110.676445,-466.704651 96.304512,-487.737457 98.524803,-499.539063"
+              class="OfflinePayments::Invoice Invoice" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -671.976074,-1004.112488 C -667.399414,-1003.441467 -661.541077,-995.570007 -662.212097,-990.993347"
+              class="Email EmailValidator" stroke-opacity="1.0" stroke="#1185bf"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 115.859978,-521.888000 C 116.862732,-513.951172 106.461624,-500.541809 98.524803,-499.539063"
+              class="Invoice::Manual Invoice" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 260.232727,-534.591370 C 259.669189,-532.043457 255.001938,-529.066956 252.454025,-529.630493"
+              class="ShoppingCart Product" stroke-opacity="1.0" stroke="#bf1185"/>
+        <path fill="none" stroke-width="8.0"
+              d="M 91.266800,-134.905228 C 99.383186,-130.967255 105.650803,-112.885750 101.712837,-104.769363"
+              class="OfflinePayments::PharmacistLocumBundle Payment"
+              stroke-opacity="1.0" stroke="#11bf11"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 91.266800,-134.905228 C 40.141426,-181.549362 33.419563,-328.203583 80.063690,-379.328979"
+              class="OfflinePayments::PharmacistLocumBundle Order"
+              stroke-opacity="1.0" stroke="#68684b"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 91.266800,-134.905228 C 77.810081,-99.848686 5.040192,-67.448959 -30.016348,-80.905678"
+              class="OfflinePayments::PharmacistLocumBundle SagepayPayment"
+              stroke-opacity="1.0" stroke="#11a268"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -651.229736,-997.409302 C -652.143005,-993.929626 -658.732422,-990.080078 -662.212097,-990.993347"
+              class="Contact EmailValidator" stroke-opacity="1.0"
+              stroke="#1185bf"/>
+        <path fill="none" stroke-width="5.0"
+              d="M 41.725430,-380.504700 C 49.628227,-387.937225 72.631187,-387.231781 80.063690,-379.328979"
+              class="Admin::InvoicablePresenter Order" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 41.725430,-380.504700 C 38.354198,-370.964813 18.987543,-361.711853 9.447671,-365.083099"
+              class="Admin::InvoicablePresenter OrderItem" stroke-opacity="1.0"
+              stroke="#bf1185"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#85bf11" r="4.0" cx="-238.58936"
+                class="TrainingParticipationPresenter" cy="-352.58936"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="13.0" cx="-216.28369"
+                class="Training::Participation" cy="-359.7698" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="3.0" cx="-305.63828"
+                class="TestViewContext" cy="-251.06975" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="4.0" cx="-315.0003"
+                class="Training::PaymentOption" cy="-392.57648" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="15.0" cx="-272.3208"
+                class="Pgd" cy="238.18002" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="1.0" cx="-285.7706"
+                class="Page" cy="278.81403" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="6.0" cx="538.34125"
+                class="Consult::Consultation" cy="625.52783" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="6.0" cx="574.8791"
+                class="Consult::Card" cy="623.55304" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="4.0" cx="573.5968"
+                class="Consult::Patient" cy="672.12427" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="36.0" cx="130.91887"
+                class="Organisation" cy="191.75014" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="3.0" cx="96.24841"
+                class="Balance" cy="282.4208" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="31.0" cx="-72.83186"
+                class="User" cy="10.853624" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="4.0" cx="24.504444"
+                class="Address" cy="179.42735" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="710.26373"
+                class="UserObserver" cy="-373.62714" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="5.0" cx="548.855"
+                class="Consult::Visit" cy="576.6855" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="5.0" cx="381.2381"
+                class="Promo" cy="120.10836" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="4.0" cx="373.6792"
+                class="PromoCode" cy="132.66875" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="9.0" cx="19.083912"
+                class="Membership" cy="70.18909" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="9.0" cx="-45.56887"
+                class="RightsMaker" cy="125.661064" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="2.0" cx="32.11809"
+                class="MembershipObserver" cy="55.08373" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="50.294674"
+                class="MembershipRole" cy="65.05596" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="7.0" cx="79.49673"
+                class="Purchase" cy="-202.85219" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="11.0" cx="-129.11716"
+                class="Mailer" cy="-258.83353" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="10.000001" cx="-193.60182"
+                class="Right" cy="129.6081" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="19.000002" cx="101.71284"
+                class="Payment" cy="-104.76936" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="2.0" cx="-221.84427"
+                class="RightObserver" cy="123.95309" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="5.0" cx="-321.70273"
+                class="Assessment" cy="249.99564" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="5.0" cx="42.474945"
+                class="PharmacyGroup" cy="179.82591" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="10.000001" cx="-320.2799"
+                class="Training" cy="-360.38937" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="6.0" cx="-413.12555"
+                class="TrainingCourse" cy="96.04481" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="2.0" cx="-224.05258"
+                class="Training::Notes" cy="-377.4413" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="6.0" cx="-216.02951"
+                class="TrainingPermit" cy="-10.846341" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="2.0" cx="-1.1958606"
+                class="History" cy="0.9122105" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="14.0" cx="-81.17856"
+                class="Training::Booking" cy="-354.1654" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="26.0" cx="80.06369"
+                class="Order" cy="-379.32898" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="8.0" cx="9.447671"
+                class="OrderItem" cy="-365.0831" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="1.0" cx="623.46106"
+                class="DueDateCalculator" cy="-461.60138" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="3.0" cx="98.88868"
+                class="OrderObserver" cy="-411.67612" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="14.0" cx="98.5248"
+                class="Invoice" cy="-499.53906" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="5.0" cx="58.03117"
+                class="InvoiceItem" cy="-512.74176" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="5.0" cx="82.89544"
+                class="InvoicePresenter" cy="-520.7293" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="4.0" cx="85.60778"
+                class="OfflinePayments::PharmacistLocumPgd" cy="-185.31305"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="9.0" cx="174.51671"
+                class="PaymentPrice" cy="-37.479446" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="3.0" cx="133.20808"
+                class="PaymentPrice::LocumSinglePgdCalculator" cy="-34.004257"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="1.0" cx="200.26004"
+                class="PaymentPrice::LocumBundleCalculator" cy="-42.7201"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="9.0" cx="147.90677"
+                class="SecurePhone" cy="438.9618" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="5.0" cx="202.04057"
+                class="Consult::OrganisationGuard" cy="440.82523"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="5.0" cx="238.3834"
+                class="Consult::PublicToken" cy="576.65717" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="3.0" cx="223.17915"
+                class="Consult::NavbarPresenter" cy="403.3524" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="4.0" cx="430.26825"
+                class="Consult::ConsultationGuard" cy="546.89636"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="5.0" cx="177.25243"
+                class="Consult::Authorisation" cy="612.13196" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="3.0" cx="224.93346"
+                class="Consult::Token" cy="592.9396" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="4.0" cx="156.96481"
+                class="Consult::Verification" cy="589.50726" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="144.89885"
+                class="SecurePhoneSerializer" cy="454.46234" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1111" r="2.0" cx="1083.9984"
+                class="Pharmacy::Application" cy="-133.627" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1111" r="1.0" cx="1080.2672"
+                class="Consult::SessionsController" cy="-141.42194"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="10.000001" cx="-45.105373"
+                class="StringInput" cy="337.92816" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="2.0" cx="166.78078"
+                class="Consult::CodeUsagePresenter" cy="614.5786"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="3.0" cx="143.14256"
+                class="Consult::Notifications" cy="405.76358" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="4.0" cx="135.50447"
+                class="PaymentPrice::SinglePgdCalculator" cy="17.397236"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="4.0" cx="159.1743"
+                class="PaymentObserver" cy="-90.2976" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="1.0" cx="118.37523"
+                class="SuspendOrder" cy="-377.09796" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="1.0" cx="79.066925"
+                class="UnsuspendOrder" cy="-417.477" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="2.0" cx="252.45403"
+                class="Product" cy="-529.6305" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="1.0" cx="127.22596"
+                class="OfflinePayments::Order" cy="-392.44666" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#85bf11" r="5.0" cx="-172.80807"
+                class="TrainingBooker" cy="-346.23416" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="3.0" cx="319.24194"
+                class="Consult::AccessLog" cy="596.7165" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="7.0" cx="-30.016348"
+                class="SagepayPayment" cy="-80.90568" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="7.0" cx="-269.5202"
+                class="OrganisationRightPresenter" cy="166.8749"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="7.0" cx="-281.26428"
+                class="PgdPresenter" cy="183.81862" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="3.0" cx="-334.54196"
+                class="Question" cy="271.83026" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#8511bf" r="1.0" cx="-340.0808"
+                class="Answer" cy="276.54245" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="4.0" cx="194.59377"
+                class="PaymentPrice::BundleCalculator" cy="-2.109189"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="1.0" cx="212.28911"
+                class="BundleDiscountCalculator" cy="1.5299026" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="3.0" cx="-655.03784"
+                class="Invite" cy="-966.4069" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="3.0" cx="84.9642"
+                class="BalanceOp" cy="297.5161" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="5.0" cx="-662.2121"
+                class="EmailValidator" cy="-990.99335" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="-124.421295"
+                class="AccessToken" cy="-3.3948996" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="2.0" cx="345.3554"
+                class="Consult::PatientsController" cy="612.7237"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="1.0" cx="581.9697"
+                class="Consult::PatientSerializer" cy="682.30255"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="2.0" cx="358.0991"
+                class="PromoUsage" cy="141.5649" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="3.0" cx="553.05774"
+                class="Consult::VisitHistory" cy="601.0361" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf85" r="4.0" cx="564.2476"
+                class="Consult::PatientValidator" cy="648.4086" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf8511" r="1.0" cx="250.99823"
+                class="TestCookies" cy="590.0893" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="5.0" cx="-495.03027"
+                class="OnlinePractical" cy="-139.03552" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="3.0" cx="-517.3308"
+                class="OnlineTraining" cy="-120.768875" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1111bf" r="2.0" cx="-606.66864"
+                class="OnlineTraining::Section" cy="-119.382614"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1111bf" r="4.0" cx="-575.05194"
+                class="Certification" cy="-134.64551" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1111bf" r="3.0" cx="-626.6737"
+                class="OnlineTraining::Test" cy="-129.10948" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="2.0" cx="44.215107"
+                class="Consult::Medication" cy="543.2895" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="-34.46264"
+                class="SagepayTransaction" cy="-92.995804" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="4.0" cx="70.02432"
+                class="OfflinePayments::TrainingBooking" cy="-219.22762"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1111bf" r="1.0" cx="-637.7221"
+                class="OnlineTraining::Question" cy="-129.58301"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1111bf" r="1.0" cx="-584.678"
+                class="CertificationTestAnswer" cy="-138.69359" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="2.0" cx="122.478035"
+                class="OfflinePayments::Invoice" cy="-464.48434"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="2.0" cx="-671.9761"
+                class="Email" cy="-1004.1125" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="-57.924908"
+                class="OfflinePayments::Base" cy="362.43488" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1111" r="1.0" cx="1084.256"
+                class="Admin::TrainingParticipationsController" cy="-124.99616"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="2.0" cx="115.85998"
+                class="Invoice::Manual" cy="-521.888" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="1.0" cx="260.23273"
+                class="ShoppingCart" cy="-534.5914" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#11bf11" r="3.0" cx="91.2668"
+                class="OfflinePayments::PharmacistLocumBundle" cy="-134.90523"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#1185bf" r="1.0" cx="-651.22974"
+                class="Contact" cy="-997.4093" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#bf1185" r="2.0" cx="41.72543"
+                class="Admin::InvoicablePresenter" cy="-380.5047"
+                stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+</svg>
