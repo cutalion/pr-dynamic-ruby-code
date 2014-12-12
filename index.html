@@ -47,10 +47,9 @@
       </section>
       <section>
         <h2>simplecov</h2>
-        <pre><code class="language-ruby"># spec/spec_helper.rb
+        <pre class="line-numbers"><code class="language-ruby"># spec/spec_helper.rb
 require 'simplecov'
-SimpleCov.start 'rails'
-</code></pre>
+SimpleCov.start 'rails'</code></pre>
       </section>
       <section data-bespoke-backdrop="simplecov"></section>
       <section>
@@ -112,7 +111,7 @@ SimpleCov.start 'rails'
         <h2>Простой пример</h2>
       </section>
       <section><small><small>
-            <pre><code class="language-ruby">class ContactsController < ApplicationController
+            <pre class="line-numbers"><code class="language-ruby">class ContactsController < ApplicationController
   def create
     @contact = Contact.new(params[:contact])
     
@@ -123,19 +122,17 @@ SimpleCov.start 'rails'
     
     redirect_to :back
   end
-end
-</code></pre></small></small></section>
+end</code></pre></small></small></section>
       <section><small><small>
-            <pre><code class="language-ruby">class Contact < TablelessModel
+            <pre class="line-numbers"><code class="language-ruby">class Contact < TablelessModel
   attr_accessor :name, :email,
                 :subject, :message, :phone
                 
   validates :name, :email, :message, :presence => true
   validates :email, :email => true
-end
-</code></pre></small></small></section>
+end</code></pre></small></small></section>
       <section><small><small>
-            <pre><code class="language-ruby">class TablelessModel
+            <pre class="line-numbers"><code class="language-ruby">class TablelessModel
   include ActiveModel::Validations
   include ActiveModel::Conversion
   extend ActiveModel::Naming
@@ -149,8 +146,7 @@ end
   def persisted?
     false
   end
-end
-</code></pre></small></small></section>
+end</code></pre></small></small></section>
       <section data-bespoke-backdrop="diagram"><img src="/images/valid_method_search.svg"></section>
       <section>
         <h2>TracePoint</h2>
@@ -166,7 +162,7 @@ end
         <h2>Например</h2>
       </section>
       <section><small><small>
-            <pre><code class="language-ruby">trace = TracePoint.new do |tp|
+            <pre class="line-numbers"><code class="language-ruby">trace = TracePoint.new do |tp|
   p [tp.event, tp.defined_class,
      tp.method_id, tp.path, tp.lineno]
 end
@@ -180,11 +176,9 @@ class B
 end
 
 trace.enable
-B.new.bar
-
-</code></pre></small></small></section>
+B.new.bar</code></pre></small></small></section>
       <section><small><small><small><small>
-                <pre><code class="language-bash">$> ruby tp.rb
+                <pre class="line-numbers"><code class="language-bash">$> ruby tp.rb
 [:c_return, TracePoint, :enable, "tp.rb", 14]
 [:line, nil, nil, "tp.rb", 15]
 [:c_call, Class, :new, "tp.rb", 15]
@@ -209,16 +203,14 @@ foo[:c_return, IO, :write, "tp.rb", 7]
 [:c_return, IO, :puts, "tp.rb", 7]
 [:c_return, Kernel, :puts, "tp.rb", 7]
 [:return, A, :foo, "tp.rb", 7]
-[:return, B, :bar, "tp.rb", 11]
-</code></pre></small></small></small></small></section>
+[:return, B, :bar, "tp.rb", 11]</code></pre></small></small></small></small></section>
       <section>
         <h2>Оставим только :call и :return</h2><small>
-          <pre><code class="language-bash">$> ruby tp.rb
+          <pre class="line-numbers"><code class="language-bash">$> ruby tp.rb
 [:call, B, :bar, "tp.rb", 11]
   [:call, A, :foo, "tp.rb", 7]
   [:return, A, :foo, "tp.rb", 7]
-[:return, B, :bar, "tp.rb", 11]
-</code></pre></small>
+[:return, B, :bar, "tp.rb", 11]</code></pre></small>
       </section>
       <section>
         <h2>Отлично! Стек вызовов</h2>
@@ -226,10 +218,9 @@ foo[:c_return, IO, :write, "tp.rb", 7]
       </section>
       <section>
         <h2>Например, в CSV</h2>
-        <pre><code class="language-ruby">ContactsController,initialize,Contact
+        <pre class="line-numbers"><code class="language-ruby">ContactsController,initialize,Contact
 ContactsController,valid?,Contact
-Contact,validate,EmailValidator
-</code></pre>
+Contact,validate,EmailValidator</code></pre>
       </section>
       <section>
         <h2>CSV можно импортировать в любую базу данных</h2>
@@ -244,16 +235,15 @@ Contact,validate,EmailValidator
       <section>
         <h2>Экспорт в DOT</h2>
         <h3><a href="http://www.graphviz.org/">graphviz</a></h3><small><small>
-            <pre><code class="language-ruby">strict digraph G{
+            <pre class="line-numbers"><code class="language-ruby">strict digraph G{
   "ContactsController"->"Contact" [label="initialize"];
   "ContactsController"->"Contact" [label="valid?"];
   "Contact"->"EmailValidator" [label="validate"];
-}
-</code></pre></small></small>
+}</code></pre></small></small>
       </section>
       <section data-bespoke-backdrop="graphviz">
         <h3>
-          <pre>$> dot -Tsvg contacts.dot -o contacts.svg</pre>
+          <pre class="line-numbers">$> dot -Tsvg contacts.dot -o contacts.svg</pre>
         </h3><img src="/images/contacts.svg">
       </section>
       <section>
