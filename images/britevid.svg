@@ -3,7 +3,7 @@
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg contentScriptType="text/ecmascript" width="595px"
      xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
-     contentStyleType="text/css" viewBox="-97 -120 216 240" height="661px"
+     contentStyleType="text/css" viewBox="-97 -119 216 238" height="655px"
      preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
      version="1.1">
     <g id="edges">
@@ -275,70 +275,70 @@
               class="AccountUsage Plan" stroke-opacity="1.0" stroke="#2a69c8"/>
     </g>
     <g id="nodes">
-        <circle fill-opacity="1.0" fill="#a82ac8" r="4.0" cx="32.360435"
+        <circle fill-opacity="1.0" fill="#a82ac8" r="2.35" cx="32.360435"
                 class="EncodingProfile" cy="86.872795" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#a82ac8" r="2.0" cx="43.94"
+        <circle fill-opacity="1.0" fill="#a82ac8" r="1.45" cx="43.94"
                 class="EncodingProfilesPlatform" cy="106.94256" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#a82ac8" r="3.0" cx="52.563885"
+        <circle fill-opacity="1.0" fill="#a82ac8" r="1.9000001" cx="52.563885"
                 class="Platform" cy="95.18123" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#a8c82a" r="4.0" cx="52.596542"
+        <circle fill-opacity="1.0" fill="#a8c82a" r="2.35" cx="52.596542"
                 class="Player" cy="65.768005" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#a8c82a" r="8.0" cx="78.47898"
+        <circle fill-opacity="1.0" fill="#a8c82a" r="4.1499996" cx="78.47898"
                 class="Playlist" cy="29.807425" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#a8c82a" r="2.0" cx="100.49847"
+        <circle fill-opacity="1.0" fill="#a8c82a" r="1.45" cx="100.49847"
                 class="ImageUploader" cy="34.00308" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#a8c82a" r="4.0" cx="68.9569"
+        <circle fill-opacity="1.0" fill="#a8c82a" r="2.35" cx="68.9569"
                 class="PlayersPlaylists" cy="53.035942" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
         <circle fill-opacity="1.0" fill="#c82a2a" r="1.0" cx="117.57541"
                 class="SubtitleUploader" cy="-81.33926" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="2.0" cx="82.533844"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="1.45" cx="82.533844"
                 class="CreateTranscodingsForVideo" cy="-32.94231"
                 stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
         <circle fill-opacity="1.0" fill="#c82a2a" r="1.0" cx="80.71881"
                 class="CreateThumbnail" cy="-67.92632" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="5.0" cx="66.793335"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="2.8000002" cx="66.793335"
                 class="PlaylistRecord" cy="-11.400268" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="17.0" cx="51.784855"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="8.200001" cx="51.784855"
                 class="Video" cy="-61.64547" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="4.0" cx="69.69186"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="2.35" cx="69.69186"
                 class="VideoUploader" cy="-114.53084" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="3.0" cx="50.383354"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="1.9000001" cx="50.383354"
                 class="FileSizeValidator" cy="-117.108345" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="4.0" cx="79.25167"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="2.35" cx="79.25167"
                 class="VideoDestination" cy="-95.88442" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#c82a2a" r="2.0" cx="94.594315"
+        <circle fill-opacity="1.0" fill="#c82a2a" r="1.45" cx="94.594315"
                 class="ThumbnailUploader" cy="-95.27957" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="4.0" cx="-31.228334"
+        <circle fill-opacity="1.0" fill="#2ac869" r="2.35" cx="-31.228334"
                 class="Storage" cy="-69.42199" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="2.0" cx="-64.3834"
+        <circle fill-opacity="1.0" fill="#2ac869" r="1.45" cx="-64.3834"
                 class="AwsUtils::Path" cy="-56.727848" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="2.0" cx="3.9404933"
+        <circle fill-opacity="1.0" fill="#2ac869" r="1.45" cx="3.9404933"
                 class="PlaylistRecordStatusUpdater" cy="-51.280888"
                 stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="4.0" cx="-82.253235"
+        <circle fill-opacity="1.0" fill="#2ac869" r="2.35" cx="-82.253235"
                 class="Codem::Job" cy="-59.52525" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="3.0" cx="-45.87881"
+        <circle fill-opacity="1.0" fill="#2ac869" r="1.9000001" cx="-45.87881"
                 class="StartEncoding" cy="-55.360344" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="2.0" cx="-65.06402"
+        <circle fill-opacity="1.0" fill="#2ac869" r="1.45" cx="-65.06402"
                 class="TrackEncodingProgress" cy="-41.533314" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
         <circle fill-opacity="1.0" fill="#2ac869" r="1.0" cx="-96.77762"
@@ -347,16 +347,16 @@
         <circle fill-opacity="1.0" fill="#2ac869" r="1.0" cx="-71.11419"
                 class="UploadTranscodingFiles" cy="-88.2277" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="5.0" cx="-63.85708"
+        <circle fill-opacity="1.0" fill="#2ac869" r="2.8000002" cx="-63.85708"
                 class="UploadTranscodingFiles::Worker" cy="-75.425674"
                 stroke="#000000" stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2ac869" r="9.0" cx="-35.580463"
+        <circle fill-opacity="1.0" fill="#2ac869" r="4.6000004" cx="-35.580463"
                 class="Transcoding" cy="-30.40392" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="3.0" cx="-27.178478"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="1.9000001" cx="-27.178478"
                 class="Subscription" cy="117.60525" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="4.0" cx="-71.83988"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="2.35" cx="-71.83988"
                 class="Plan" cy="90.18295" stroke="#000000" stroke-opacity="1.0"
                 stroke-width="1.0"/>
         <circle fill-opacity="1.0" fill="#2a69c8" r="1.0" cx="-44.412106"
@@ -365,10 +365,10 @@
         <circle fill-opacity="1.0" fill="#2a69c8" r="1.0" cx="8.586197"
                 class="Ability" cy="87.94131" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="2.0" cx="-15.718624"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="1.45" cx="-15.718624"
                 class="CancelSubscription" cy="89.67681" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="3.0" cx="-33.237797"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="1.9000001" cx="-33.237797"
                 class="ChangeSubscription" cy="88.744415" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
         <circle fill-opacity="1.0" fill="#2a69c8" r="1.0" cx="-35.89473"
@@ -383,16 +383,16 @@
         <circle fill-opacity="1.0" fill="#2a69c8" r="1.0" cx="-40.66973"
                 class="UsageStat" cy="38.393448" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="3.0" cx="-53.869064"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="1.9000001" cx="-53.869064"
                 class="InvoiceCreated" cy="90.25805" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
         <circle fill-opacity="1.0" fill="#2a69c8" r="1.0" cx="-50.42401"
                 class="InvoicePaymentFailed" cy="46.549694" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="21.0" cx="-10.954143"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="10.0" cx="-10.954143"
                 class="User" cy="54.642162" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
-        <circle fill-opacity="1.0" fill="#2a69c8" r="4.0" cx="-56.8054"
+        <circle fill-opacity="1.0" fill="#2a69c8" r="2.35" cx="-56.8054"
                 class="AccountUsage" cy="73.53496" stroke="#000000"
                 stroke-opacity="1.0" stroke-width="1.0"/>
     </g>

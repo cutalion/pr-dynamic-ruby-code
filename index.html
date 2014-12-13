@@ -139,7 +139,7 @@ end</code></pre></small></small></section>
   
   def initialize(attributes = {})
     attributes.each do |name, value|
-      send("=", value)
+      send("#{name}=", value)
     end
   end
   
@@ -256,10 +256,18 @@ Contact,validate,EmailValidator</code></pre>
         <h2 class="bullet">и знает несколько алгоритмов расположения узлов</h2><img src="./images/gephi_with_labels.png" class="bullet">
       </section>
       <section data-bespoke-backdrop="gephi">
-        <h2>Самый популярный мальчик в классе</h2><img src="./images/gephi_organisation_zoom.png" class="bullet">
+        <h2>Самый популярный мальчик в классе</h2><img src="./images/gephi_organisation_zoom.png">
       </section>
       <section data-bespoke-backdrop="gephi">
-        <h2>Изгои</h2><img src="./images/gephi_consult_zoom.png" class="bullet">
+        <h2>Изгои</h2><img src="./images/gephi_consult_zoom.png">
+      </section>
+      <section>
+        <table class="compare-images">
+          <tr>
+            <td><img src="./images/pharmacy.svg"></td>
+            <td><img src="./images/britevid.svg"></td>
+          </tr>
+        </table>
       </section>
       <section class="links">
         <h1>Ссылки</h1><a href="http://cutalion.github.io/pr-dynamic-ruby-code/">Эта презентация</a><a href="https://github.com/cutalion/pr-dynamic-ruby-code/">Исходники презентации</a><a href="https://gist.github.com/cutalion/ab2451236ad135d0e7ec">TPLogger</a>
